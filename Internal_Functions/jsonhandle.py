@@ -3,7 +3,7 @@ import sys
 
 loadedf = {}
 
-# TODO: Alle Channels.json in Arrays machen
+
 def get_v(name: list, path: str, load: bool, execute="normal"):
     try:
         if load:
