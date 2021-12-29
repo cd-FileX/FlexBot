@@ -30,8 +30,8 @@ assignees: FlexGamesGitHub
 **Client & Bot Infos**
 Bot Version: <!-- X.X.X --> 
 Discord Version: <!-- z.B. Stable 108924 (eb8c571) Desktop (in den Einstellungen ganz unten) -->
-<!-- BetterDiscord Version & Plugins: -->
-<!-- Falls installiert hier angeben/auflisten und die Pfeile von "BetterDiscord Version & Plugins:" entfernen -->
+<!-- BetterDiscord Version (& Plugins) -->
+<!-- Falls installiert hier angeben/die Plugins die damit zusammenhängen könnten auflisten und die Pfeile von "BetterDiscord Version & Plugins:" entfernen -->
 
 **Zusätzlicher Kontext**
 <!-- Alles was noch nötig ist außerhalb des oben aufgelistetes -->
