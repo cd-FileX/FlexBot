@@ -33,5 +33,5 @@ Discord Version: <!-- z.B. Stable 108924 (eb8c571) Desktop (in den Einstellungen
 <!-- BetterDiscord Version (& Plugins) -->
 <!-- Falls installiert hier angeben/die Plugins die damit zusammenhängen könnten auflisten und die Pfeile von "BetterDiscord Version & Plugins:" entfernen -->
 
-**Zusätzlicher Kontext**
-<!-- Alles was noch nötig ist außerhalb des oben aufgelistetes -->
+<!-- **Zusätzlicher Kontext** -->
+<!-- Falls nötig hier alles was noch nötig ist außer des oben aufgelisteten & Pfeile um "**Zusätzlicher Kontext**" entfernen -->
