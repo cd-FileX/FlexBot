@@ -2,7 +2,7 @@
 name: Verbesserungsanfrage
 about: Hier kannst du alle Ideen vorschlagen die dir zum Bot einfallen
 title: "[VERBESSERUNG] Ein Titel"
-labels: ''
+labels: verbesserung
 assignees: FlexGamesGitHub
 
 ---
