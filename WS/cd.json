@@ -161,7 +161,7 @@
             }],
             "channels": [745313368377786398, 745243936611893320],
             "forbidden_channels": [],
-            "permission-level": 2
+            "permission_level": 2
         },
         "status": {
             "description": "Gibt den Heartbeat Ack & Ping aus",
@@ -169,7 +169,7 @@
             "parameters": [],
             "channels": [],
             "forbidden_channels": [],
-            "permission-level": 1
+            "permission_level": 1
         },
         "bot-block": {
             "description": "Sperrt den User von Commands von mir",
@@ -190,7 +190,7 @@
             }],
             "channels": [745313368377786398, 745243936611893320],
             "forbidden_channels": [],
-            "permission-level": 1
+            "permission_level": 1
         },
         "bot-unblock": {
             "description": "Entsperrt den angegebenen User von Commands von mir",
@@ -204,7 +204,7 @@
             }],
             "channels": [745313368377786398, 745243936611893320],
             "forbidden_channels": [],
-            "permission-level": 1
+            "permission_level": 1
         },
         "update": {
             "description": "Gibt das neueste Update in <#930128487623311410> aus",
@@ -212,7 +212,7 @@
             "parameters": [],
             "channels": [],
             "forbidden_channels": [],
-            "permission-level": 0
+            "permission_level": 0
         },
         "shutdown": {
             "description": "Fährt den Bot herunter",
@@ -220,7 +220,7 @@
             "parameters": [],
             "channels": [],
             "forbidden_channels": [],
-            "permission-level": 0
+            "permission_level": 0
         },
         "restart": {
             "description": "Startet den Bot neu; danach instabiler als davor",
@@ -228,7 +228,7 @@
             "parameters": [],
             "channels": [],
             "forbidden_channels": [],
-            "permission-level": 0
+            "permission_level": 0
         }
     },
     "event_cmd_data": {
