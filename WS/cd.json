@@ -234,5 +234,13 @@
     "event_cmd_data": {
         "message": "Aktuell ist kein Event. Sollte eins sein, wird das in <#733662705096982568>",
         "code": 0
+    },
+    "param_type_data": {
+        "text": "Ein Text, alle Zeichen & Buchstaben zugelassen, Länge evtl. begrenzt je nach Command",
+        "option": "Hier hast du die Auswahl zwischen verschiedenen Optionen, angegeben sind diese beim jeweiligen Command",
+        "wörter": "Es dürfen mehrere Wörter angegeben werden jedoch ohne Zeichen dazwischen, Länge evtl. begrenzt je nach Command",
+        "zahl": "Eine Zahl die im <a href=\"https://en.wikipedia.org/wiki/Integer_(computer_science)\">Integer</a> Bereich sein muss",
+        "user": "Ein User angegeben per ID oder Mention",
+        "channel": "Ein Channel angegeben per ID oder Mention (bisher noch nicht integriert)"
     }
 }
