@@ -5,7 +5,7 @@
             "aliases": ["v"],
             "parameters": [],
             "channels": {"730023448255922196": ""},
-            "forbidden_channels": []
+            "forbidden_channels": {}
         },
         "vote": {
             "description": "Automatische Reaktion auf deine Nachricht mit \uD83D\uDC4D & \uD83D\uDC4E",
@@ -18,7 +18,7 @@
                 "option_types": []
             }],
             "channels": {"516634586286129183": "", "745243936611893320": ""},
-            "forbidden_channels": []
+            "forbidden_channels": {}
         },
         "help": {
             "description": "Das ist genau das hier 😄",
@@ -30,7 +30,7 @@
                 "point": true,
                 "option_types": ["mod", "event"]
             }],
-            "channels": [],
+            "channels": {},
             "forbidden_channels": {"516634586286129183": "", "730023448255922196": ""}
         },
         "create-v": {
@@ -51,7 +51,7 @@
                 "option_types": []
             }],
             "channels": {"713466584878022707": "", "813705901227245588": "", "745243936611893320": ""},
-            "forbidden_channels": []
+            "forbidden_channels": {}
         },
         "create-pv-v": {
             "description": "Hiermit kannst du dir einen privaten VC erstellen (Best Frens+)",
@@ -71,7 +71,7 @@
                 "option_types": []
             }],
             "channels": {"713466584878022707": "", "813705901227245588": "", "745243936611893320": ""},
-            "forbidden_channels": []
+            "forbidden_channels": {}
         },
         "timer": {
             "description": "Kleine For-Fun Funktion damit deine Chicken Nuggets nicht mehr verbrennen 😄 (Der Name kann max. 40 Buchstaben/Zeichen enthalten und wird als \"bis [timer name]\" angezeigt)\n❗ Wegen Ratelimits sind die Timer ungenau (bedeutet DEINE CHICKEN NUGGETS VERBRENNEN!!!!)",
@@ -91,21 +91,21 @@
                 "option_types": []
             }],
             "channels": {"714118042740588584": "", "517414730038509571": "", "733662705096982568": "", "713466584878022707": "", "745243936611893320": ""},
-            "forbidden_channels": []
+            "forbidden_channels": {}
         },
         "no-feedback": {
             "description": "Deaktiviert z.B. Reaction Role Feedback",
             "aliases": ["n-f"],
             "parameters": [],
             "channels": {"713466584878022707": ""},
-            "forbidden_channels": []
+            "forbidden_channels": {}
         },
         "pls-feedback": {
             "description": "**UNO REVERSE CARD** (reaktiviert z.B. Reaction Role Feedback)",
             "aliases": ["f"],
             "parameters": [],
             "channels": {"713466584878022707": ""},
-            "forbidden_channels": []
+            "forbidden_channels": {}
         },
         "discord-together": {
             "description": "Eine Beta Funktion um Aktivitäten zu erstellen wie z.B. YT Together",
@@ -118,7 +118,7 @@
                 "option_types": ["YouTube", "YT", "Poker", "PK", "Chess", "CS", "Schach", "Betrayal", "BT", "Fishing", "FS", "Angeln", "Letter-Tile", "LT", "Word-Snack", "WS", "Doodle-Crew", "DC", "Spellcast", "SC", "Awkword", "AW", "Checkers", "CK", "Checkers-In-The-Park"]
             }],
             "channels": {"713466584878022707": ""},
-            "forbidden_channels": []
+            "forbidden_channels": {}
         },
         "get": {
             "description": "Wiedermal eine For-Fun Funktion womit du random Infos bekommst \uD83D\uDE04 (ID2 ist für Nachrichten; ID1 = Channel ID, ID2 = Message ID)",
@@ -145,7 +145,7 @@
                 "option_types": []
             }],
             "channels": {"713466584878022707": ""},
-            "forbidden_channels": []
+            "forbidden_channels": {}
         }
     },
     "mod_cmd_data": {
@@ -160,15 +160,15 @@
                 "option_types": []
             }],
             "channels": {"745313368377786398": "", "745243936611893320": ""},
-            "forbidden_channels": [],
+            "forbidden_channels": {},
             "permission_level": 2
         },
         "status": {
             "description": "Gibt den Heartbeat Ack & Ping aus",
             "aliases": [],
             "parameters": [],
-            "channels": [],
-            "forbidden_channels": [],
+            "channels": {},
+            "forbidden_channels": {},
             "permission_level": 1
         },
         "bot-block": {
@@ -189,7 +189,7 @@
                 "option_types": []
             }],
             "channels": {"745313368377786398": "", "745243936611893320": ""},
-            "forbidden_channels": [],
+            "forbidden_channels": {},
             "permission_level": 1
         },
         "bot-unblock": {
@@ -203,31 +203,31 @@
                 "option_types": []
             }],
             "channels": {"745313368377786398": "", "745243936611893320": ""},
-            "forbidden_channels": [],
+            "forbidden_channels": {},
             "permission_level": 1
         },
         "update": {
             "description": "Gibt das neueste Update in <#930128487623311410> aus",
             "aliases": [],
             "parameters": [],
-            "channels": [],
-            "forbidden_channels": [],
+            "channels": {},
+            "forbidden_channels": {},
             "permission_level": 0
         },
         "shutdown": {
             "description": "Fährt den Bot herunter",
             "aliases": ["s"],
             "parameters": [],
-            "channels": [],
-            "forbidden_channels": [],
+            "channels": {},
+            "forbidden_channels": {},
             "permission_level": 0
         },
         "restart": {
             "description": "Startet den Bot neu; danach instabiler als davor",
             "aliases": ["rs"],
             "parameters": [],
-            "channels": [],
-            "forbidden_channels": [],
+            "channels": {},
+            "forbidden_channels": {},
             "permission_level": 0
         }
     },
