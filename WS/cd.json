@@ -232,7 +232,8 @@
         }
     },
     "event_cmd_data": {
-        "message": "Aktuell ist kein Event. Sollte eins sein, wird das in <#733662705096982568>",
+        "message": "Aktuell ist kein Event. Sollte eins sein, wird das in {0['replace']['733662705096982568']} angekündigt 😀",
+        "replace": {"733662705096982568": ""},
         "code": 0
     },
     "param_type_data": {
@@ -242,5 +243,6 @@
         "zahl": "Eine Zahl die im <a href=\"https://en.wikipedia.org/wiki/Integer_(computer_science)\">Integer</a> Bereich sein muss",
         "user": "Ein User angegeben per ID oder Mention",
         "channel": "Ein Channel angegeben per ID oder Mention (bisher noch nicht integriert)"
-    }
+    },
+    "staff_overrides": {"714118042740588584": "", "766623750141509632": "", "789597259998298173": "", "831150053414404134": ""}
 }
