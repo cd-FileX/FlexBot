@@ -232,7 +232,7 @@
         }
     },
     "event_cmd_data": {
-        "message": "Aktuell ist kein Event. Sollte eins sein, wird das in {0['replace']['733662705096982568']} angekündigt 😀",
+        "message": "Aktuell ist kein Event. Sollte eins sein, wird das in {0} angekündigt 😀",
         "replace": {"733662705096982568": ""},
         "code": 0
     },
