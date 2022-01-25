@@ -7,19 +7,6 @@
             "channels": {"730023448255922196": ""},
             "forbidden_channels": {}
         },
-        "vote": {
-            "description": "Automatische Reaktion auf deine Nachricht mit \uD83D\uDC4D & \uD83D\uDC4E",
-            "aliases": ["vt"],
-            "parameters": [{
-                "name": "Nachricht",
-                "type": "text",
-                "required": true,
-                "point": false,
-                "option_types": []
-            }],
-            "channels": {"516634586286129183": "", "745243936611893320": ""},
-            "forbidden_channels": {}
-        },
         "help": {
             "description": "Das ist genau das hier 😄",
             "aliases": ["h"],
