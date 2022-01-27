@@ -12,7 +12,7 @@
             "alias": "h",
             "parameters": [{
                 "name": "Typ",
-                "type": "option",
+                "type": 3.3,
                 "required": false,
                 "option_types": []
             }],
@@ -24,13 +24,13 @@
             "alias": "c-v",
             "parameters": [{
                 "name": "Name",
-                "type": "wörter",
+                "type": 3.2,
                 "required": true,
                 "option_types": []
             },
             {
                 "name": "User_Begrenzung",
-                "type": "zahl",
+                "type": 4,
                 "required": false,
                 "option_types": []
             }],
@@ -42,13 +42,13 @@
             "alias": "c-pv-v",
             "parameters": [{
                 "name": "Name",
-                "type": "wörter",
+                "type": 3.2,
                 "required": true,
                 "option_types": []
             },
             {
                 "name": "User_Begrenzung",
-                "type": "zahl",
+                "type": 4,
                 "required": false,
                 "option_types": []
             }],
@@ -60,13 +60,13 @@
             "alias": "t",
             "parameters": [{
                 "name": "Sekunden",
-                "type": "zahl",
+                "type": 4,
                 "required": true,
                 "option_types": []
             },
             {
                 "name": "Name",
-                "type": "wörter",
+                "type": 3.2,
                 "required": false,
                 "option_types": []
             }],
@@ -92,7 +92,7 @@
             "alias": "dsc-tgth",
             "parameters": [{
                 "name": "Typ",
-                "type": "option",
+                "type": 3.3,
                 "required": true,
                 "option_types": ["YouTube", "YT", "Poker", "PK", "Chess", "Schach", "CS", "Betrayal", "BT", "Fishing", "Angeln", "FS", "Letter-Tile", "LT", "Word-Snack", "WS", "Doodle-Crew", "DC", "Spellcast", "SC", "Awkword", "AW", "Checkers-In-The-Park", "Checkers", "CK"]
             }],
@@ -104,19 +104,19 @@
             "alias": null,
             "parameters": [{
                 "name": "Typ",
-                "type": "option",
+                "type": 3.3,
                 "required": true,
                 "option_types": ["Message", "Nachricht", "MSG", "User", "Member", "Benutzer", "USR", "Channel", "Kanal", "CNL", "Role", "Rolle", "RLE", "Server", "Guild", "SVR"]
             },
             {
                 "name": "ID1",
-                "type": "zahl",
+                "type": 4,
                 "required": true,
                 "option_types": []
             },
             {
                 "name": "ID2",
-                "type": "zahl",
+                "type": 4,
                 "required": false,
                 "option_types": []
             }],
@@ -130,7 +130,7 @@
             "alias": "pm",
             "parameters": [{
                 "name": "User",
-                "type": "user",
+                "type": 6,
                 "required": true,
                 "option_types": []
             }],
@@ -151,13 +151,13 @@
             "alias": "b-b",
             "parameters": [{
                 "name": "User_ID",
-                "type": "zahl",
+                "type": 4,
                 "required": true,
                 "option_types": []
             },
             {
                 "name": "Grund",
-                "type": "wörter",
+                "type": 3.2,
                 "required": true,
                 "option_types": []
             }],
@@ -170,7 +170,7 @@
             "alias": "b-ub",
             "parameters": [{
                 "name": "User_ID",
-                "type": "zahl",
+                "type": 4,
                 "required": true,
                 "option_types": []
             }],
