@@ -14,8 +14,7 @@
                 "name": "Typ",
                 "type": "option",
                 "required": false,
-                "point": true,
-                "option_types": ["mod", "event"]
+                "option_types": []
             }],
             "channels": {},
             "forbidden_channels": {"516634586286129183": "", "730023448255922196": ""}
@@ -27,14 +26,12 @@
                 "name": "Name",
                 "type": "wörter",
                 "required": true,
-                "point": true,
                 "option_types": []
             },
             {
-                "name": "User Begrenzung",
+                "name": "User_Begrenzung",
                 "type": "zahl",
                 "required": false,
-                "point": true,
                 "option_types": []
             }],
             "channels": {"713466584878022707": "", "813705901227245588": "", "745243936611893320": ""},
@@ -47,14 +44,12 @@
                 "name": "Name",
                 "type": "wörter",
                 "required": true,
-                "point": true,
                 "option_types": []
             },
             {
-                "name": "User Begrenzung",
+                "name": "User_Begrenzung",
                 "type": "zahl",
                 "required": false,
-                "point": true,
                 "option_types": []
             }],
             "channels": {"713466584878022707": "", "813705901227245588": "", "745243936611893320": ""},
@@ -67,14 +62,12 @@
                 "name": "Sekunden",
                 "type": "zahl",
                 "required": true,
-                "point": true,
                 "option_types": []
             },
             {
                 "name": "Name",
                 "type": "wörter",
                 "required": false,
-                "point": true,
                 "option_types": []
             }],
             "channels": {"714118042740588584": "", "517414730038509571": "", "733662705096982568": "", "713466584878022707": "", "745243936611893320": ""},
@@ -101,8 +94,7 @@
                 "name": "Typ",
                 "type": "option",
                 "required": true,
-                "point": true,
-                "option_types": ["YouTube", "YT", "Poker", "PK", "Chess", "CS", "Schach", "Betrayal", "BT", "Fishing", "FS", "Angeln", "Letter-Tile", "LT", "Word-Snack", "WS", "Doodle-Crew", "DC", "Spellcast", "SC", "Awkword", "AW", "Checkers", "CK", "Checkers-In-The-Park"]
+                "option_types": ["YouTube", "YT", "Poker", "PK", "Chess", "Schach", "CS", "Betrayal", "BT", "Fishing", "Angeln", "FS", "Letter-Tile", "LT", "Word-Snack", "WS", "Doodle-Crew", "DC", "Spellcast", "SC", "Awkword", "AW", "Checkers-In-The-Park", "Checkers", "CK"]
             }],
             "channels": {"713466584878022707": ""},
             "forbidden_channels": {}
@@ -114,21 +106,18 @@
                 "name": "Typ",
                 "type": "option",
                 "required": true,
-                "point": true,
-                "option_types": ["Message", "Nachricht", "User", "Member", "Benutzer", "Channel", "Kanal", "Role", "Rolle", "Server", "Guild"]
+                "option_types": ["Message", "Nachricht", "MSG", "User", "Member", "Benutzer", "USR", "Channel", "Kanal", "CNL", "Role", "Rolle", "RLE", "Server", "Guild", "SVR"]
             },
             {
                 "name": "ID1",
                 "type": "zahl",
                 "required": true,
-                "point": true,
                 "option_types": []
             },
             {
                 "name": "ID2",
                 "type": "zahl",
                 "required": false,
-                "point": true,
                 "option_types": []
             }],
             "channels": {"713466584878022707": ""},
@@ -143,7 +132,6 @@
                 "name": "User",
                 "type": "user",
                 "required": true,
-                "point": true,
                 "option_types": []
             }],
             "channels": {"745313368377786398": "", "745243936611893320": ""},
@@ -162,17 +150,15 @@
             "description": "Sperrt den User von Commands von mir",
             "aliases": "b-b",
             "parameters": [{
-                "name": "User ID",
+                "name": "User_ID",
                 "type": "zahl",
                 "required": true,
-                "point": true,
                 "option_types": []
             },
             {
                 "name": "Grund",
                 "type": "wörter",
                 "required": true,
-                "point": true,
                 "option_types": []
             }],
             "channels": {"745313368377786398": "", "745243936611893320": ""},
@@ -183,10 +169,9 @@
             "description": "Entsperrt den angegebenen User von Commands von mir",
             "aliases": "b-ub",
             "parameters": [{
-                "name": "User ID",
+                "name": "User_ID",
                 "type": "zahl",
                 "required": true,
-                "point": true,
                 "option_types": []
             }],
             "channels": {"745313368377786398": "", "745243936611893320": ""},
