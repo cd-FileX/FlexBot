@@ -2,14 +2,14 @@
     "normal_cmd_data": {
         "verify": {
             "description": "Hiermit musstest du dich am Anfang verifizieren (du bekommst einen Code den du mir zurückschicken musst)",
-            "aliases": ["v"],
+            "aliases": "v",
             "parameters": [],
             "channels": {"730023448255922196": ""},
             "forbidden_channels": {}
         },
         "help": {
             "description": "Das ist genau das hier 😄",
-            "aliases": ["h"],
+            "aliases": "h",
             "parameters": [{
                 "name": "Typ",
                 "type": "option",
@@ -22,7 +22,7 @@
         },
         "create-v": {
             "description": "Damit kannst du dir deinen eigenen Sprachkanal erstellen (Namen-Limit ist bei 30)",
-            "aliases": ["c-v"],
+            "aliases": "c-v",
             "parameters": [{
                 "name": "Name",
                 "type": "wörter",
@@ -42,7 +42,7 @@
         },
         "create-pv-v": {
             "description": "Hiermit kannst du dir einen privaten VC erstellen (Best Frens+)",
-            "aliases": ["c-pv-v"],
+            "aliases": "c-pv-v",
             "parameters": [{
                 "name": "Name",
                 "type": "wörter",
@@ -62,7 +62,7 @@
         },
         "timer": {
             "description": "Kleine For-Fun Funktion damit deine Chicken Nuggets nicht mehr verbrennen 😄 (Der Name kann max. 40 Buchstaben/Zeichen enthalten und wird als \"bis [timer name]\" angezeigt)\n❗ Wegen Ratelimits sind die Timer ungenau (bedeutet DEINE CHICKEN NUGGETS VERBRENNEN!!!!)",
-            "aliases": ["t"],
+            "aliases": "t",
             "parameters": [{
                 "name": "Sekunden",
                 "type": "zahl",
@@ -82,21 +82,21 @@
         },
         "no-feedback": {
             "description": "Deaktiviert z.B. Reaction Role Feedback",
-            "aliases": ["n-f"],
+            "aliases": "n-f",
             "parameters": [],
             "channels": {"713466584878022707": ""},
             "forbidden_channels": {}
         },
         "pls-feedback": {
             "description": "**UNO REVERSE CARD** (reaktiviert z.B. Reaction Role Feedback)",
-            "aliases": ["f"],
+            "aliases": "f",
             "parameters": [],
             "channels": {"713466584878022707": ""},
             "forbidden_channels": {}
         },
         "discord-together": {
             "description": "Eine Beta Funktion um Aktivitäten zu erstellen wie z.B. YT Together",
-            "aliases": ["dsc-tgth"],
+            "aliases": "dsc-tgth",
             "parameters": [{
                 "name": "Typ",
                 "type": "option",
@@ -109,7 +109,7 @@
         },
         "get": {
             "description": "Wiedermal eine For-Fun Funktion womit du random Infos bekommst \uD83D\uDE04 (ID2 ist für Nachrichten; ID1 = Channel ID, ID2 = Message ID)",
-            "aliases": [],
+            "aliases": null,
             "parameters": [{
                 "name": "Typ",
                 "type": "option",
@@ -138,7 +138,7 @@
     "mod_cmd_data": {
         "prevmute": {
             "description": "Nimmt dem angegebenen User alle Rollen weg",
-            "aliases": ["pm"],
+            "aliases": "pm",
             "parameters": [{
                 "name": "User",
                 "type": "user",
@@ -152,7 +152,7 @@
         },
         "status": {
             "description": "Gibt den Heartbeat Ack & Ping aus",
-            "aliases": [],
+            "aliases": null,
             "parameters": [],
             "channels": {},
             "forbidden_channels": {},
@@ -160,7 +160,7 @@
         },
         "bot-block": {
             "description": "Sperrt den User von Commands von mir",
-            "aliases": ["b-b"],
+            "aliases": "b-b",
             "parameters": [{
                 "name": "User ID",
                 "type": "zahl",
@@ -181,7 +181,7 @@
         },
         "bot-unblock": {
             "description": "Entsperrt den angegebenen User von Commands von mir",
-            "aliases": ["b-ub"],
+            "aliases": "b-ub",
             "parameters": [{
                 "name": "User ID",
                 "type": "zahl",
@@ -195,7 +195,7 @@
         },
         "update": {
             "description": "Gibt das neueste Update in <#930128487623311410> aus",
-            "aliases": [],
+            "aliases": null,
             "parameters": [],
             "channels": {},
             "forbidden_channels": {},
@@ -203,7 +203,7 @@
         },
         "shutdown": {
             "description": "Fährt den Bot herunter",
-            "aliases": ["s"],
+            "aliases": "s",
             "parameters": [],
             "channels": {},
             "forbidden_channels": {},
@@ -211,7 +211,7 @@
         },
         "restart": {
             "description": "Startet den Bot neu; danach instabiler als davor",
-            "aliases": ["rs"],
+            "aliases": "rs",
             "parameters": [],
             "channels": {},
             "forbidden_channels": {},
