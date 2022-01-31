@@ -8,7 +8,7 @@
             "forbidden_channels": {}
         },
         "help": {
-            "description": "Das ist genau das hier 😄",
+            "description": "Hiermit bekommst du den Link zur Hilfe Website",
             "alias": "h",
             "parameters": [{
                 "name": "Typ",
@@ -81,7 +81,7 @@
             "forbidden_channels": {}
         },
         "pls-feedback": {
-            "description": "**UNO REVERSE CARD** (reaktiviert z.B. Reaction Role Feedback)",
+            "description": "UNO REVERSE CARD (reaktiviert z.B. Reaction Role Feedback)",
             "alias": "f",
             "parameters": [],
             "channels": {"713466584878022707": ""},
@@ -147,7 +147,7 @@
             "permission_level": 1
         },
         "bot-block": {
-            "description": "Sperrt den User von Commands von mir",
+            "description": "Sperrt den User von Commands von FlexBot",
             "alias": "b-b",
             "parameters": [{
                 "name": "User_ID",
@@ -166,7 +166,7 @@
             "permission_level": 1
         },
         "bot-unblock": {
-            "description": "Entsperrt den angegebenen User von Commands von mir",
+            "description": "Entsperrt den angegebenen User von Commands von FlexBot",
             "alias": "b-ub",
             "parameters": [{
                 "name": "User_ID",
@@ -179,7 +179,7 @@
             "permission_level": 1
         },
         "update": {
-            "description": "Gibt das neueste Update in <#930128487623311410> aus",
+            "description": "Gibt das neueste Update in #🟥-flexbot-news aus",
             "alias": null,
             "parameters": [],
             "channels": {},
