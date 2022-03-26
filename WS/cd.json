@@ -1,10 +1,10 @@
 {
     "normal_cmd_data": {
         "verify": {
-            "description": "Hiermit musstest du dich am Anfang verifizieren (du bekommst einen Code den du mir zurückschicken musst)",
+            "description": "Für die Verifizierung am Anfang; du bekommst ein Captcha das du gelöst zurückschicken musst. Sollte es falsch sein antwortet der Bot nicht drauf",
             "alias": "v",
             "parameters": [],
-            "channels": {"730023448255922196": ""},
+            "channels": {"730023448255922196": "✅-verify"},
             "forbidden_channels": {}
         },
         "help": {
@@ -17,7 +17,7 @@
                 "option_types": []
             }],
             "channels": {},
-            "forbidden_channels": {"516634586286129183": "", "730023448255922196": ""}
+            "forbidden_channels": {"516634586286129183": "💡-ideen", "730023448255922196": "✅-verify"}
         },
         "create-v": {
             "description": "Damit kannst du dir deinen eigenen Sprachkanal erstellen (Namen-Limit ist bei 30)",
@@ -34,11 +34,11 @@
                 "required": false,
                 "option_types": []
             }],
-            "channels": {"713466584878022707": "", "813705901227245588": "", "745243936611893320": ""},
+            "channels": {"713466584878022707": "🤖-bot-commands", "813705901227245588": "➕-vc-erstellen"},
             "forbidden_channels": {}
         },
         "create-pv-v": {
-            "description": "Hiermit kannst du dir einen privaten VC erstellen (Best Frens+)",
+            "description": "Hiermit kannst du dir einen privaten VoiceChannel erstellen (Best Frens+)",
             "alias": "c-pv-v",
             "parameters": [{
                 "name": "Name",
@@ -52,11 +52,11 @@
                 "required": false,
                 "option_types": []
             }],
-            "channels": {"713466584878022707": "", "813705901227245588": "", "745243936611893320": ""},
+            "channels": {"713466584878022707": "🤖-bot-commands", "813705901227245588": "➕-vc-erstellen"},
             "forbidden_channels": {}
         },
         "timer": {
-            "description": "Kleine For-Fun Funktion damit deine Chicken Nuggets nicht mehr verbrennen 😄 (Der Name kann max. 40 Buchstaben/Zeichen enthalten und wird als \"bis [timer name]\" angezeigt)\n❗ Wegen Ratelimits sind die Timer ungenau (bedeutet DEINE CHICKEN NUGGETS VERBRENNEN!!!!)",
+            "description": "Nur ne kleine For-Fun Funktion :) (Namenlimit bei 40 Buchstaben/Zeichen, wird als \"bis [timer name]\" angezeigt) HINWEIS: Es kann wegen Ratelimits o.ä. zu Ungenauigkeit kommen",
             "alias": "t",
             "parameters": [{
                 "name": "Sekunden",
@@ -70,21 +70,21 @@
                 "required": false,
                 "option_types": []
             }],
-            "channels": {"714118042740588584": "", "517414730038509571": "", "733662705096982568": "", "713466584878022707": "", "745243936611893320": ""},
+            "channels": {"714118042740588584": "staff", "517414730038509571": "🎬-video-livestream-news", "733662705096982568": "🆕-announcements", "713466584878022707": "🤖-bot-commands"},
             "forbidden_channels": {}
         },
         "no-feedback": {
             "description": "Deaktiviert z.B. Reaction Role Feedback",
             "alias": "n-f",
             "parameters": [],
-            "channels": {"713466584878022707": ""},
+            "channels": {"713466584878022707": "🤖-bot-commands"},
             "forbidden_channels": {}
         },
         "pls-feedback": {
             "description": "UNO REVERSE CARD (reaktiviert z.B. Reaction Role Feedback)",
             "alias": "f",
             "parameters": [],
-            "channels": {"713466584878022707": ""},
+            "channels": {"713466584878022707": "🤖-bot-commands"},
             "forbidden_channels": {}
         },
         "discord-together": {
@@ -96,17 +96,17 @@
                 "required": true,
                 "option_types": ["YouTube", "YT", "Poker", "PK", "Chess", "Schach", "CS", "Betrayal", "BT", "Fishing", "Angeln", "FS", "Letter-Tile", "LT", "Word-Snack", "WS", "Doodle-Crew", "DC", "Spellcast", "SC", "Awkword", "AW", "Checkers-In-The-Park", "Checkers", "CK"]
             }],
-            "channels": {"713466584878022707": ""},
+            "channels": {"713466584878022707": "🤖-bot-commands"},
             "forbidden_channels": {}
         },
         "get": {
-            "description": "Wiedermal eine For-Fun Funktion womit du random Infos bekommst \uD83D\uDE04 (ID2 ist für Nachrichten; ID1 = Channel ID, ID2 = Message ID)",
+            "description": "Eine For-Fun Funktion um Leute/Sachen zu stalken :) (ID2 ist nur für Nachrichten; ID1 = Channel ID, ID2 = Message ID)",
             "alias": null,
             "parameters": [{
                 "name": "Typ",
                 "type": 3.3,
                 "required": true,
-                "option_types": ["Message", "Nachricht", "MSG", "User", "Member", "Benutzer", "USR", "Channel", "Kanal", "CNL", "Role", "Rolle", "RLE", "Server", "Guild", "SVR"]
+                "option_types": ["Message", "Nachricht", "MSG", "User", "Member", "Benutzer", "USR", "Channel", "Kanal", "CNL", "Role", "Rolle", "RLE", "Server", "Guild", "SRV"]
             },
             {
                 "name": "ID1",
@@ -120,7 +120,7 @@
                 "required": false,
                 "option_types": []
             }],
-            "channels": {"713466584878022707": ""},
+            "channels": {"713466584878022707": "🤖-bot-commands"},
             "forbidden_channels": {}
         }
     },
@@ -134,7 +134,7 @@
                 "required": true,
                 "option_types": []
             }],
-            "channels": {"745313368377786398": "", "745243936611893320": ""},
+            "channels": {"745313368377786398": "⭕-warns-mutes"},
             "forbidden_channels": {},
             "permission_level": 2
         },
@@ -161,12 +161,12 @@
                 "required": true,
                 "option_types": []
             }],
-            "channels": {"745313368377786398": "", "745243936611893320": ""},
+            "channels": {"745313368377786398": "⭕-warns-mutes"},
             "forbidden_channels": {},
             "permission_level": 1
         },
         "bot-unblock": {
-            "description": "Entsperrt den angegebenen User von Commands von FlexBot",
+            "description": "Entsperrt den User von Commands von FlexBot",
             "alias": "b-ub",
             "parameters": [{
                 "name": "User_ID",
@@ -174,12 +174,12 @@
                 "required": true,
                 "option_types": []
             }],
-            "channels": {"745313368377786398": "", "745243936611893320": ""},
+            "channels": {"745313368377786398": "⭕-warns-mutes"},
             "forbidden_channels": {},
             "permission_level": 1
         },
         "update": {
-            "description": "Gibt das neueste Update in #🟥-flexbot-news aus",
+            "description": "Sendet das neueste Update",
             "alias": null,
             "parameters": [],
             "channels": {},
@@ -204,8 +204,8 @@
         }
     },
     "event_cmd_data": {
-        "message": "Aktuell ist kein Event. Sollte eins sein, wird das in {0} angekündigt 😀",
-        "replace": {"733662705096982568": ""},
+        "message": "Aktuell ist kein Event. Sollte eins sein, wird das in {0} angekündigt ^^",
+        "replace": {"733662705096982568": "🆕-announcements"},
         "code": 0
     },
     "param_type_data": {
@@ -217,7 +217,7 @@
         "channel": "Ein Channel angegeben per ID oder Mention (bisher noch nicht integriert)"
     },
     "rr_messages": [724205670483755038, 813755000680742922],
-    "staff_overrides": {"714118042740588584": "", "766623750141509632": "", "789597259998298173": "", "831150053414404134": ""},
+    "staff_overrides": {"714118042740588584": "staff", "766623750141509632": "bot-config", "789597259998298173": "mein-channel", "831150053414404134": "fb-commands"},
     "channel_perms": {
         "bot_mention": {
             "channels": {}, 
