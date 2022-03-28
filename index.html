@@ -9,14 +9,23 @@
     Du kommst aber leider erst drauf wenn du es wieder aktivierst. Solange warte ich hier...
 </noscript>
 <body ondragstart="return!1" ondrop="return!1" class="dark-mode" style="transition:color 500ms ease-in-out,background-color 500ms ease-in-out">
+    <button id="mobile-menu">
+        <div id="menu-stripe1"></div>
+        <div id="menu-stripe2"></div>
+        <div id="menu-stripe3"></div>
+    </button>
     <div id="content-list" style="transition:color 500ms ease-in-out,background-color 500ms ease-in-out">
         <div id="settings">
             <a id="bug-report" class="toolTip toolTipBottom" aria-label="Bug Melden" target="_blank" href="https://github.com/FlexGamesGitHub/FlexBot/issues/new/choose">
-                <svg viewBox="0 0 20 20" height="21" width="21">
+                <svg viewBox="0 -1 20 21" height="21" width="21" fill="transparent" stroke="currentColor" stroke-width="1.4">
                     <path d="M15.3 14.89l2.77 2.77a1 1 0 0 1 0 1.41 1 1 0 0 1-1.41 0l-2.59-2.58A5.99 5.99 0 0 1 11 18V9.04a1 1 0 0 0-2 0V18a5.98 5.98 0 0 1-3.07-1.51l-2.59 2.58a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41l2.77-2.77A5.95 5.95 0 0 1 4.07 13H1a1 1 0 1 1 0-2h3V8.41L.93 5.34a1 1 0 0 1 0-1.41 1 1 0 0 1 1.41 0l2.1 2.1h11.12l2.1-2.1a1 1 0 0 1 1.41 0 1 1 0 0 1 0 1.41L16 8.41V11h3a1 1 0 1 1 0 2h-3.07c-.1.67-.32 1.31-.63 1.89zM15 5H5a5 5 0 1 1 10 0z"/>
                 </svg>
             </a>
-            <button id="d-l-s" class="toolTip toolTipBottom">&#9728;</button>
+            <button id="d-l-s" class="toolTip toolTipBottom">
+                <svg width="21" height="21" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="transparent" stroke="currentColor" stroke-width="35">
+                    <path d="m256 501c-8.9 0-16.8-5.8-19.5-14.3-20.5-65.3-36.4-78.1-57.1-78.1-16.1 0-39.4 7.8-73.1 24.5-7.9 3.9-17.3 2.3-23.5-3.9-6.2-6.2-7.7-15.6-3.9-23.5 21.9-44.3 28.7-71.2 21.9-87-6.7-15.7-30-29-75.5-43.3-8.5-2.6-14.3-10.5-14.3-19.4 0-8.9 5.8-16.8 14.3-19.5 45.5-14.3 68.8-27.6 75.5-43.3 6.8-15.8 0-42.7-21.9-87-3.9-7.8-2.3-17.2 3.9-23.4 6.2-6.2 15.6-7.7 23.5-3.9 33.8 16.7 57 24.5 73.1 24.5 16.5 0 34.6-6 57.1-78.1 2.7-8.5 10.6-14.3 19.5-14.3 8.9 0 16.8 5.8 19.5 14.3 20.5 65.3 36.4 78.1 57.1 78.1 16.1 0 39.4-7.8 73.1-24.5 7.9-3.9 17.3-2.3 23.5 3.9 6.2 6.2 7.7 15.6 3.9 23.5-21.9 44.3-28.7 71.2-21.9 87 6.7 15.7 30 29 75.5 43.3 8.5 2.7 14.3 10.6 14.3 19.5 0 8.9-5.8 16.8-14.3 19.5-45.5 14.3-68.8 27.6-75.5 43.3-6.8 15.8 0 42.7 21.9 87 3.9 7.8 2.3 17.3-3.9 23.5-6.2 6.2-15.6 7.8-23.5 3.9-33.8-16.7-57-24.5-73.1-24.5-16.5 0-34.6 6-57.1 78.1-2.7 8.3-10.6 14.1-19.5 14.1z"/>
+                </svg>
+            </button>
         </div>
         <h2>INHALTS-LISTE</h2>
         <ul id="content-list-list">
@@ -39,7 +48,7 @@
                 <span id="cmd-expl-param1" class="toolTip toolTipTop">.[NAME: <a href="#param-type-wörter">Wörter</a>]</span>
                 <span id="cmd-expl-param2" class="toolTip toolTipTop">.(TYP: <a href="#param-type-option">Option</a>)</span>
             </h6>
-            <span class="cmd-descr" id="cmd-expl-descr">Um über die einzelnen Teile zu erfahren, geh einfach mit der Maus darüber<br/>Um es dauerhaft anzeigen zu lassen, klicke einmal drauf</span>
+            <span class="cmd-descr" id="cmd-expl-descr">Für eine Zusammenfassung gehe drüber <br/>Für eine Erklärung klicke/tippe drauf</span>
         </div>
         <h4 id="header-normal-cmds">NORMALE USER COMMANDS</h4>
         <ul id="normal-cmd-list"></ul>
@@ -52,7 +61,7 @@
         <footer id="info-footer">
             <div>
                 <span id="copyright">Copyright © 2022-</span> 
-                <span>Made by FlexGames</span>
+                <span>Made by FileX</span>
             </div>
             <div id="social-networks">
                 <a target="_blank" href="https://discord.gg/7qxDEBR" class="toolTip toolTipTop" aria-label="Mein Discord Server">
