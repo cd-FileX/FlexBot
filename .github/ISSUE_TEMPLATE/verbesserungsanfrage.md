@@ -13,6 +13,10 @@ assignees: FlexGamesGitHub
 - Sollte die Anfrage auf/mit einem Problem basieren/zusammenhängen bitte auch einen Bug Report erstellen
 - Bitte alles ausfüllen
 -->
+**Abteil**
+- [ ] Website
+- [x] Bot
+<!-- Ersetze das Leerzeichen zwischen den eckigen Klammern mit einem x um es als gecheckt zu markieren -->
 
 **Beschreibung deiner Idee/Lösung**
 <!-- Eine klare Beschreibung was wann wie,... passieren soll -->
