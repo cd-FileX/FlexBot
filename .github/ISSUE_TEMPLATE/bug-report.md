@@ -13,8 +13,9 @@ assignees: FlexGamesGitHub
 - Bitte alles ausfüllen
 -->
 **Abteil**
-[ ] Website
-[ ] Bot
+- [ ] Website
+- [x] Bot
+<!-- Ersetze das Leerzeichen zwischen den Eckigen Klammern mit einem x um es als gecheckt zu markieren -->
 
 <!-- **Verbesserungsanfrage hierzu** -->
 <!-- Falls erstellt bitte hier angeben & die Pfeile von "**Verbesserungsanfrage hierzu**" entfernen -->
