@@ -12,6 +12,10 @@ assignees: FlexGamesGitHub
 - Bitte nur reporten sollte der Bug noch nicht automatisch gemeldet worden sein
 - Bitte alles ausfüllen
 -->
+**Abteil**
+[ ] Website
+[ ] Bot
+
 <!-- **Verbesserungsanfrage hierzu** -->
 <!-- Falls erstellt bitte hier angeben & die Pfeile von "**Verbesserungsanfrage hierzu**" entfernen -->
 
