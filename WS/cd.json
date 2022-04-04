@@ -205,7 +205,7 @@
     },
     "event_cmd_data": {
         "message": "Aktuell ist kein Event. Sollte eins sein, wird das in {0} angekündigt ^^",
-        "replace": {"733662705096982568": "<a href=\"https://discord.com/channels/493472231691780117/733662705096982568\">#🆕-announcements</a>"},
+        "replace": {"733662705096982568": "<a target=\"_blank\" href=\"https://discord.com/channels/493472231691780117/733662705096982568\">#🆕-announcements</a>"},
         "code": 0
     },
     "param_type_data": {
