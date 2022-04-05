@@ -10,12 +10,6 @@
         "help": {
             "description": "Hiermit bekommst du den Link zur Hilfe Website",
             "alias": "h",
-            "parameters": [{
-                "name": "Typ",
-                "type": 3.3,
-                "required": false,
-                "option_types": []
-            }],
             "channels": {},
             "forbidden_channels": {"516634586286129183": "💡-ideen", "730023448255922196": "✅-verify"}
         },
@@ -26,7 +20,7 @@
                 "name": "Name",
                 "type": 3.2,
                 "required": true,
-                "option_types": []
+                "option_types": [],
             },
             {
                 "name": "User_Begrenzung",
@@ -44,7 +38,7 @@
                 "name": "Name",
                 "type": 3.2,
                 "required": true,
-                "option_types": []
+                "option_types": [],
             },
             {
                 "name": "User_Begrenzung",
@@ -56,7 +50,7 @@
             "forbidden_channels": {}
         },
         "timer": {
-            "description": "Nur ne kleine For-Fun Funktion :) (Namenlimit bei 40 Buchstaben/Zeichen, wird als \"bis [timer name]\" angezeigt) HINWEIS: Es kann wegen Ratelimits o.ä. zu Ungenauigkeit kommen",
+            "description": "Nur ne kleine For-Fun Funktion :) || !! HINWEIS: Es kann wegen Ratelimits o.ä. zu Ungenauigkeit kommen",
             "alias": "t",
             "parameters": [{
                 "name": "Sekunden",
@@ -68,7 +62,8 @@
                 "name": "Name",
                 "type": 3.2,
                 "required": false,
-                "option_types": []
+                "option_types": [],
+                "description": "Limit bei 40 Charakteren, wird als \"bis [NAME]\" angezeigt"
             }],
             "channels": {"714118042740588584": "staff", "517414730038509571": "🎬-video-livestream-news", "733662705096982568": "🆕-announcements", "713466584878022707": "🤖-bot-commands"},
             "forbidden_channels": {}
@@ -94,31 +89,35 @@
                 "name": "Typ",
                 "type": 3.3,
                 "required": true,
-                "option_types": ["YouTube", "YT", "Poker", "PK", "Chess", "Schach", "CS", "Betrayal", "BT", "Fishing", "Angeln", "FS", "Letter-Tile", "LT", "Word-Snack", "WS", "Doodle-Crew", "DC", "Spellcast", "SC", "Awkword", "AW", "Checkers-In-The-Park", "Checkers", "CK"]
+                "option_types": ["YouTube", "YT", "Poker", "PK", "Chess", "Schach", "CS", "Betrayal", "BT", "Fishing", "Angeln", "FS", "Letter-Tile", "LT", "Word-Snack", "WS", "Doodle-Crew", "DC", "Spellcast", "SC", "Awkword", "AW", "Checkers-In-The-Park", "Checkers", "CK"],
+                "description": "Welche Aktivität erstellt werden soll"
             }],
             "channels": {"713466584878022707": "🤖-bot-commands"},
             "forbidden_channels": {}
         },
         "get": {
-            "description": "Eine For-Fun Funktion um Leute/Sachen zu stalken :) (ID2 ist nur für Nachrichten; ID1 = Channel ID, ID2 = Message ID)",
+            "description": "Eine For-Fun Funktion um Leute/Sachen zu stalken :)",
             "alias": null,
             "parameters": [{
                 "name": "Typ",
                 "type": 3.3,
                 "required": true,
-                "option_types": ["Message", "Nachricht", "MSG", "User", "Member", "Benutzer", "USR", "Channel", "Kanal", "CNL", "Role", "Rolle", "RLE", "Server", "Guild", "SRV"]
+                "option_types": ["Message", "Nachricht", "MSG", "User", "Member", "Benutzer", "USR", "Channel", "Kanal", "CNL", "Role", "Rolle", "RLE", "Server", "Guild", "SRV"],
+                "description": "Was für ein Typ gefragt ist"
             },
             {
                 "name": "ID1",
                 "type": 4,
                 "required": true,
-                "option_types": []
+                "option_types": [],
+                "description": "Bei Nachrichten Channel ID, sonst Objekt ID"
             },
             {
                 "name": "ID2",
                 "type": 4,
                 "required": false,
-                "option_types": []
+                "option_types": [],
+                "description": "Für Nachrichten; Nachrichten ID"
             }],
             "channels": {"713466584878022707": "🤖-bot-commands"},
             "forbidden_channels": {}
