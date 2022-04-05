@@ -20,7 +20,7 @@
                 "name": "Name",
                 "type": 3.2,
                 "required": true,
-                "option_types": [],
+                "option_types": []
             },
             {
                 "name": "User_Begrenzung",
@@ -38,7 +38,7 @@
                 "name": "Name",
                 "type": 3.2,
                 "required": true,
-                "option_types": [],
+                "option_types": []
             },
             {
                 "name": "User_Begrenzung",
