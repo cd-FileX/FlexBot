@@ -10,6 +10,7 @@
         "help": {
             "description": "Hiermit bekommst du den Link zur Hilfe Website",
             "alias": "h",
+            "parameters": [],
             "channels": {},
             "forbidden_channels": {"516634586286129183": "💡-ideen", "730023448255922196": "✅-verify"}
         },
