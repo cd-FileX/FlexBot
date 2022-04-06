@@ -9,7 +9,8 @@ assignees: FlexGamesGitHub
 
 <!--
 ❗ BUG REPORT HINWEIS
-- Bitte nur reporten sollte der Bug noch nicht automatisch gemeldet worden sein
+- Bitte nur reporten sollte der Bug noch nicht gemeldet worden sein
+- Keinen doppelten Report erstellen
 - Bitte alles ausfüllen
 -->
 **Abteil**
