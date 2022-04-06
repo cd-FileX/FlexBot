@@ -11,6 +11,8 @@ assignees: FlexGamesGitHub
 ❗ Verbesserungsanfrage Hinweis
 - Bitte nur umsetzbare Ideen
 - Sollte die Anfrage auf/mit einem Problem basieren/zusammenhängen bitte auch einen Bug Report erstellen
+- Bitte nur erstellen sollte es noch nicht so eine oder so eine ändliche geben
+    - Bei ähnlich gerne deine eigene Idee in die Kommentare schreiben
 - Bitte alles ausfüllen
 -->
 **Abteil**
