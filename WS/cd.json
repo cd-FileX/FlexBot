@@ -15,13 +15,14 @@
             "forbidden_channels": {"516634586286129183": "💡-ideen", "730023448255922196": "✅-verify"}
         },
         "create-v": {
-            "description": "Damit kannst du dir deinen eigenen Sprachkanal erstellen (Namen-Limit ist bei 30)",
+            "description": "Damit kannst du dir deinen eigenen Sprachkanal erstellen",
             "alias": "c-v",
             "parameters": [{
                 "name": "Name",
                 "type": 3.2,
                 "required": true,
-                "option_types": []
+                "option_types": [],
+                "description": "Limit bei 30"
             },
             {
                 "name": "User_Begrenzung",
@@ -64,7 +65,7 @@
                 "type": 3.2,
                 "required": false,
                 "option_types": [],
-                "description": "Limit bei 40 Charakteren, wird als \"bis [NAME]\" angezeigt"
+                "description": "Limit bei 40 Charakteren, wird als 'bis [NAME]' angezeigt"
             }],
             "channels": {"714118042740588584": "staff", "517414730038509571": "🎬-video-livestream-news", "733662705096982568": "🆕-announcements", "713466584878022707": "🤖-bot-commands"},
             "forbidden_channels": {}
