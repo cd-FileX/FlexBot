@@ -198,7 +198,12 @@
         "restart": {
             "description": "Startet den Bot neu; danach instabiler als davor",
             "alias": "rs",
-            "parameters": [],
+            "parameters": [{
+                "name": "Locked_Mode",
+                "type": 5,
+                "required": false,
+                "option_types": []
+            }],
             "channels": {},
             "forbidden_channels": {},
             "permission_level": 0
