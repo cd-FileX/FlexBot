@@ -127,7 +127,7 @@
     },
     "mod_cmd_data": {
         "prevmute": {
-            "description": "Nimmt dem angegebenen User alle Rollen weg",
+            "description": "Nimmt dem angegebenen User alle Rollen weg. Um den Command innerhalb von 2 Minuten rückgängig zu machen gibt es _r-p.[USER_ID: Zahl] oder auch _revoke-prevmute.[USER_ID: Zahl]",
             "alias": "pm",
             "parameters": [{
                 "name": "User",
