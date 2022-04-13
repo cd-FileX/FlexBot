@@ -34,7 +34,7 @@
             "forbidden_channels": {}
         },
         "create-pv-v": {
-            "description": "Hiermit kannst du dir einen privaten VoiceChannel erstellen (Best Frens+)",
+            "description": "Hiermit kannst du dir einen privaten VoiceChannel erstellen (Nur für Freunde oder höher)",
             "alias": "c-pv-v",
             "parameters": [{
                 "name": "Name",
