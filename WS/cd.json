@@ -18,14 +18,14 @@
             "description": "Damit kannst du dir deinen eigenen Sprachkanal erstellen",
             "alias": "c-v",
             "parameters": [{
-                "name": "Name",
+                "name": "name",
                 "type": 3.2,
                 "required": true,
                 "option_types": [],
                 "description": "Limit bei 30"
             },
             {
-                "name": "Begrenzung",
+                "name": "begrenzung",
                 "type": 4,
                 "required": false,
                 "option_types": [],
@@ -38,13 +38,13 @@
             "description": "Hiermit kannst du dir einen privaten VoiceChannel erstellen (Nur für Freunde oder höher)",
             "alias": "c-pv-v",
             "parameters": [{
-                "name": "Name",
+                "name": "name",
                 "type": 3.2,
                 "required": true,
                 "option_types": []
             },
             {
-                "name": "Begrenzung",
+                "name": "begrenzung",
                 "type": 4,
                 "required": false,
                 "option_types": [],
@@ -57,13 +57,13 @@
             "description": "Nur ne kleine For-Fun Funktion :) || !! HINWEIS: Kann wegen Ratelimits o.ä. zu Ungenauigkeit kommen",
             "alias": "t",
             "parameters": [{
-                "name": "Sekunden",
+                "name": "sekunden",
                 "type": 4,
                 "required": true,
                 "option_types": []
             },
             {
-                "name": "Name",
+                "name": "name",
                 "type": 3.2,
                 "required": false,
                 "option_types": [],
@@ -90,7 +90,7 @@
             "description": "Eine Beta Funktion um Aktivitäten zu erstellen wie z.B. YT Together",
             "alias": "dsc-tgth",
             "parameters": [{
-                "name": "Typ",
+                "name": "typ",
                 "type": 3.3,
                 "required": true,
                 "option_types": ["YouTube", "YT", "Poker", "PK", "Chess", "Schach", "CS", "Betrayal", "BT", "Fishing", "Angeln", "FS", "Letter-Tile", "LT", "Word-Snack", "WS", "Doodle-Crew", "DC", "Spellcast", "SC", "Awkword", "AW", "Checkers-In-The-Park", "Checkers", "CK", "Blazing-8s", "B8", "B8s", "Land-IO", "LI", "LIO", "Putt-Party", "PP"],
@@ -103,21 +103,21 @@
             "description": "Eine For-Fun Funktion um Leute/Sachen zu stalken :)",
             "alias": null,
             "parameters": [{
-                "name": "Typ",
+                "name": "typ",
                 "type": 3.3,
                 "required": true,
                 "option_types": ["Message", "Nachricht", "MSG", "User", "Member", "Benutzer", "USR", "Channel", "Kanal", "CNL", "Role", "Rolle", "RLE", "Server", "Guild", "SRV"],
                 "description": "Was für ein Typ gefragt ist"
             },
             {
-                "name": "ID1",
+                "name": "id1",
                 "type": 4,
                 "required": true,
                 "option_types": [],
                 "description": "Bei Nachrichten Channel ID, sonst Objekt ID"
             },
             {
-                "name": "ID2",
+                "name": "id2",
                 "type": 4,
                 "required": false,
                 "option_types": [],
@@ -132,7 +132,7 @@
             "description": "Nimmt alle Rollen weg. Rückgängig machbar mit _r-p.[ID: Zahl]",
             "alias": "pm",
             "parameters": [{
-                "name": "User",
+                "name": "user",
                 "type": 6,
                 "required": true,
                 "option_types": []
@@ -153,14 +153,14 @@
             "description": "Sperrt den User von Commands von FlexBot",
             "alias": "b-b",
             "parameters": [{
-                "name": "ID",
+                "name": "id",
                 "type": 4,
                 "required": true,
                 "option_types": [],
                 "description": "Die ID des Users der geblockt werden soll"
             },
             {
-                "name": "Grund",
+                "name": "grund",
                 "type": 3.2,
                 "required": true,
                 "option_types": []
@@ -173,7 +173,7 @@
             "description": "Entsperrt den User von Commands von FlexBot",
             "alias": "b-ub",
             "parameters": [{
-                "name": "ID",
+                "name": "id",
                 "type": 4,
                 "required": true,
                 "option_types": [],
@@ -203,7 +203,7 @@
             "description": "Startet den Bot neu; danach instabiler als davor",
             "alias": "rs",
             "parameters": [{
-                "name": "Locked",
+                "name": "locked",
                 "type": 5,
                 "required": false,
                 "option_types": []
