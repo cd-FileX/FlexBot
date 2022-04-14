@@ -91,7 +91,7 @@
                 "name": "Typ",
                 "type": 3.3,
                 "required": true,
-                "option_types": ["YouTube", "YT", "Poker", "PK", "Chess", "Schach", "CS", "Betrayal", "BT", "Fishing", "Angeln", "FS", "Letter-Tile", "LT", "Word-Snack", "WS", "Doodle-Crew", "DC", "Spellcast", "SC", "Awkword", "AW", "Checkers-In-The-Park", "Checkers", "CK", "Blazing-8s", "B8", "B8s", "land-io", "li", "lio", "putt-party", "pp"],
+                "option_types": ["YouTube", "YT", "Poker", "PK", "Chess", "Schach", "CS", "Betrayal", "BT", "Fishing", "Angeln", "FS", "Letter-Tile", "LT", "Word-Snack", "WS", "Doodle-Crew", "DC", "Spellcast", "SC", "Awkword", "AW", "Checkers-In-The-Park", "Checkers", "CK", "Blazing-8s", "B8", "B8s", "Land-IO", "LI", "LIO", "Putt-Party", "PP"],
                 "description": "Welche Aktivität erstellt werden soll"
             }],
             "channels": {"713466584878022707": "🤖-bot-commands"},
