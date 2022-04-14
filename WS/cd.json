@@ -1,7 +1,7 @@
 {
     "normal_cmd_data": {
         "verify": {
-            "description": "Für die Verifizierung am Anfang; du bekommst ein Captcha das du gelöst zurückschicken musst. Sollte es falsch sein antwortet der Bot nicht drauf",
+            "description": "Für die Verifizierung; Bild wird gesendet, sollte Antwort falsch sein keine Antwort vom Bot",
             "alias": "v",
             "parameters": [],
             "channels": {"730023448255922196": "✅-verify"},
@@ -25,10 +25,11 @@
                 "description": "Limit bei 30"
             },
             {
-                "name": "User_Begrenzung",
+                "name": "Begrenzung",
                 "type": 4,
                 "required": false,
-                "option_types": []
+                "option_types": [],
+                "description": "Wie viele User maximal beitreten dürfen"
             }],
             "channels": {"713466584878022707": "🤖-bot-commands", "813705901227245588": "➕-vc-erstellen"},
             "forbidden_channels": {}
@@ -43,16 +44,17 @@
                 "option_types": []
             },
             {
-                "name": "User_Begrenzung",
+                "name": "Begrenzung",
                 "type": 4,
                 "required": false,
-                "option_types": []
+                "option_types": [],
+                "description": "Wie viele User maximal beitreten dürfen"
             }],
             "channels": {"713466584878022707": "🤖-bot-commands", "813705901227245588": "➕-vc-erstellen"},
             "forbidden_channels": {}
         },
         "timer": {
-            "description": "Nur ne kleine For-Fun Funktion :) || !! HINWEIS: Es kann wegen Ratelimits o.ä. zu Ungenauigkeit kommen",
+            "description": "Nur ne kleine For-Fun Funktion :) || !! HINWEIS: Kann wegen Ratelimits o.ä. zu Ungenauigkeit kommen",
             "alias": "t",
             "parameters": [{
                 "name": "Sekunden",
@@ -127,7 +129,7 @@
     },
     "mod_cmd_data": {
         "prevmute": {
-            "description": "Nimmt dem angegebenen User alle Rollen weg. Um den Command innerhalb von 2 Minuten rückgängig zu machen gibt es _r-p.[USER_ID: Zahl] oder auch _revoke-prevmute.[USER_ID: Zahl]",
+            "description": "Nimmt alle Rollen weg. Rückgängig machbar mit _r-p.[ID: Zahl]",
             "alias": "pm",
             "parameters": [{
                 "name": "User",
@@ -151,10 +153,11 @@
             "description": "Sperrt den User von Commands von FlexBot",
             "alias": "b-b",
             "parameters": [{
-                "name": "User_ID",
+                "name": "ID",
                 "type": 4,
                 "required": true,
-                "option_types": []
+                "option_types": [],
+                "description": "Die ID des Users der geblockt werden soll"
             },
             {
                 "name": "Grund",
@@ -170,10 +173,11 @@
             "description": "Entsperrt den User von Commands von FlexBot",
             "alias": "b-ub",
             "parameters": [{
-                "name": "User_ID",
+                "name": "ID",
                 "type": 4,
                 "required": true,
-                "option_types": []
+                "option_types": [],
+                "description": "Die ID des Users der entblockt werden soll"
             }],
             "channels": {"745313368377786398": "⭕-warns-mutes"},
             "forbidden_channels": {},
@@ -199,7 +203,7 @@
             "description": "Startet den Bot neu; danach instabiler als davor",
             "alias": "rs",
             "parameters": [{
-                "name": "Locked_Mode",
+                "name": "Locked",
                 "type": 5,
                 "required": false,
                 "option_types": []
