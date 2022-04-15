@@ -219,12 +219,66 @@
         "code": 0
     },
     "param_type_data": {
-        "text": "Ein Text, alle Zeichen & Buchstaben zugelassen, Länge evtl. begrenzt je nach Command",
-        "option": "Hier hast du die Auswahl zwischen verschiedenen Optionen, angegeben sind diese beim jeweiligen Command",
-        "wörter": "Es dürfen mehrere Wörter angegeben werden jedoch ohne Zeichen dazwischen, Länge evtl. begrenzt je nach Command",
-        "zahl": "Eine Zahl die im <a href=\"https://en.wikipedia.org/wiki/Integer_(computer_science)\">Integer</a> Bereich sein muss",
-        "user": "Ein User angegeben per ID oder Mention",
-        "channel": "Ein Channel angegeben per ID oder Mention (bisher noch nicht integriert)"
+        "sub command": {
+            "description": "Ein Unter-Command wie der Name schon sagt (Noch nicht eingebaut)",
+            "id": 1
+        },
+        "sub command group": {
+            "description": "Eine Gruppierung für Unter-Commands (noch nicht eingebaut)",
+            "id": 2
+        },
+        "String": {
+            "description": "Jegliche Art von Text, somit Übergruppierung von Text, Wörter, Option und ID",
+            "id": 3
+        },
+        "text": {
+            "description": "Ein Text, alle Zeichen & Buchstaben zugelassen, Länge evtl. begrenzt je nach Command",
+            "id": 3.1
+        },
+        "wörter": {
+            "description": "Es dürfen mehrere Wörter angegeben werden jedoch ohne Zeichen dazwischen, Länge evtl. begrenzt je nach Command",
+            "id": 3.2
+        },
+        "option": {
+            "description": "Hier hast du die Auswahl zwischen verschiedenen Optionen, angegeben sind diese beim jeweiligen Command",
+            "id": 3.3
+        },
+        "id": {
+            "description": "Nimmt eine User ID an die zu groß für einen Integer ist",
+            "id": 3.4
+        },
+        "zahl": {
+            "description": "Eine Zahl die im <a href=\"https://en.wikipedia.org/wiki/Integer_(computer_science)\">Integer</a> Bereich sein muss",
+            "id": 4
+        },
+        "boolean": {
+            "description": "Nimmt True oder False an",
+            "id": 5
+        },
+        "user": {
+            "description": "Ein User angegeben per ID oder Mention",
+            "id": 6
+        },
+        "channel": {
+            "description": "Ein Channel angegeben per ID oder Mention (noch nicht eingebaut)",
+            "id": 7
+        },
+        "rolle": {
+            "description": "Na, eine Rolle natürlich (noch nicht eingebaut)",
+            "id": 8
+        },
+        "mentionable": {
+            "description": "Alles was man mention kann, also User oder Rolle (noch nicht eingebaut)",
+            "id": 9 
+        },
+        "kommazahl": {
+            "description": "Oder auch Float oder Double genannt (noch nicht eingebaut)",
+            "id": 10
+        },
+        "anhang": {
+            "description": "Ein Bild oder eben etwas was man anhängen kann (noch nicht eingebaut)",
+            "id": 11
+        }
     },
     "rr_messages": [724205670483755038, 813755000680742922],
     "staff_overrides": {"714118042740588584": "staff", "766623750141509632": "bot-config", "789597259998298173": "mein-channel", "831150053414404134": "fb-commands"},
