@@ -111,14 +111,14 @@
             },
             {
                 "name": "id1",
-                "type": 4,
+                "type": 3.4,
                 "required": true,
                 "option_types": [],
                 "description": "Bei Nachrichten Channel ID, sonst Objekt ID"
             },
             {
                 "name": "id2",
-                "type": 4,
+                "type": 3.4,
                 "required": false,
                 "option_types": [],
                 "description": "Für Nachrichten; Nachrichten ID"
@@ -154,7 +154,7 @@
             "alias": "b-b",
             "parameters": [{
                 "name": "id",
-                "type": 4,
+                "type": 3.4,
                 "required": true,
                 "option_types": [],
                 "description": "Die ID des Users der geblockt werden soll"
@@ -174,7 +174,7 @@
             "alias": "b-ub",
             "parameters": [{
                 "name": "id",
-                "type": 4,
+                "type": 3.4,
                 "required": true,
                 "option_types": [],
                 "description": "Die ID des Users der entblockt werden soll"
