@@ -142,7 +142,7 @@
             "permission_level": 2
         },
         "status": {
-            "description": "Gibt den Heartbeat Ack & Ping aus",
+            "description": "Gibt den Heartbeat Ack & Ping aus, bei Update-Modus für alle als Update-Status Command freigegeben",
             "alias": null,
             "parameters": [],
             "channels": {},
