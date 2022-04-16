@@ -1,0 +1,58 @@
+name: Verbesserung
+description: Um eine Idee vorzuschlagen
+title: "[VB] TITEL"
+labels: ["verbesserung"]
+assignees:
+  - FlexGamesGitHub
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Wichtige Hinweise bevor du einen Bug erstellst:
+          - Bitte nur erstellen, sollte die Verbesserung noch in keiner Form so erstellt worden sein (siehe [Issues](https://github.com/FlexGamesGitHub/FlexBot/issues))
+            - Sollte eine auch nur ähnlich sein, bitte schreibe einen Kommentar darunter statt eine neue zu erstellen
+          - Bitte auch den Titel bearbeiten
+  - type: dropdown
+    attributes: 
+      label: "Website oder Bot?"
+      options: 
+        - Website
+        - Bot
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Hängt ein Bug Report damit zusammen?"
+      description: "Wenn ja bitte angeben"
+      placeholder: "#123"
+  - type: markdown
+    attributes:
+      value: "## DIE VERBESSERUNG"
+  - type: textarea
+    attributes:
+      label: "Beschreibung deiner Idee"
+      description: "Eine klare Beschreibung wie deine Vorstellung aussieht"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Alternativen"
+      description: "Sollte es auch Alternativen deiner Idee geben, gib sie hier an"  
+  - type: markdown
+    attributes:
+      value: "## ZUSÄTZLICHE INFOS & CHECKOUT"
+  - type: textarea
+    attributes:
+      label: "Zusätzlicher Kontext"
+      description: "Alles was noch wichtig sein sollte um deine Idee umzusetzen"
+  - type: checkboxes
+    attributes: 
+      label: Checkout
+      options:
+        - label: "Ich habe den Titel geändert"
+          required: true
+        - label: "Ich habe alles nötige ausgefüllt"
+          required: true
+        - label: "Ich habe auf Duplikate geprüft"
+          required: true
+  
