@@ -79,8 +79,8 @@ body:
     validations: 
       required: true
   - type: input
-      attributes:
-        label: "Sonstiger Client"
+    attributes:
+      label: "Sonstiger Client"
   - type: input
       attributes:
         label: "Client Version"
