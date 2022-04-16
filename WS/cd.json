@@ -2,21 +2,21 @@
     "normal_cmd_data": {
         "verify": {
             "description": "Für die Verifizierung; Bild wird gesendet, sollte Antwort falsch sein keine Antwort vom Bot",
-            "alias": "a<v",
+            "alias": "a-v",
             "parameters": [],
             "channels": {"730023448255922196": "✅-verify"},
             "forbidden_channels": {}
         },
         "help": {
             "description": "Hiermit bekommst du den Link zur Hilfe Website",
-            "alias": "a<h",
+            "alias": "a-h",
             "parameters": [],
             "channels": {},
             "forbidden_channels": {"516634586286129183": "💡-ideen", "730023448255922196": "✅-verify"}
         },
         "create-v": {
             "description": "Damit kannst du dir deinen eigenen Sprachkanal erstellen",
-            "alias": "a<c-v",
+            "alias": "a-c-v",
             "parameters": [{
                 "name": "name",
                 "type": 3.2,
@@ -36,7 +36,7 @@
         },
         "create-pv-v": {
             "description": "Hiermit kannst du dir einen privaten VoiceChannel erstellen (Nur für Freunde oder höher)",
-            "alias": "a<c-pv-v",
+            "alias": "a-c-pv-v",
             "parameters": [{
                 "name": "name",
                 "type": 3.2,
@@ -55,7 +55,7 @@
         },
         "timer": {
             "description": "Nur ne kleine For-Fun Funktion :) || !! HINWEIS: Kann wegen Ratelimits o.ä. zu Ungenauigkeit kommen",
-            "alias": "a<t",
+            "alias": "a-t",
             "parameters": [{
                 "name": "sekunden",
                 "type": 4,
@@ -74,21 +74,21 @@
         },
         "no-feedback": {
             "description": "Deaktiviert z.B. Reaction Role Feedback",
-            "alias": "a<n-f",
+            "alias": "a-n-f",
             "parameters": [],
             "channels": {"713466584878022707": "🤖-bot-commands"},
             "forbidden_channels": {}
         },
         "pls-feedback": {
             "description": "UNO REVERSE CARD (reaktiviert z.B. Reaction Role Feedback)",
-            "alias": "a<f",
+            "alias": "a-f",
             "parameters": [],
             "channels": {"713466584878022707": "🤖-bot-commands"},
             "forbidden_channels": {}
         },
         "discord-together": {
             "description": "Eine Beta Funktion um Aktivitäten zu erstellen wie z.B. YT Together",
-            "alias": "a<dsc-tgth",
+            "alias": "a-dsc-tgth",
             "parameters": [{
                 "name": "typ",
                 "type": 3.3,
@@ -130,7 +130,7 @@
     "mod_cmd_data": {
         "prevmute": {
             "description": "Nimmt alle Rollen weg. Rückgängig machbar mit _r-p.[ID: Zahl]",
-            "alias": "a<pm",
+            "alias": "a-pm",
             "parameters": [{
                 "name": "user",
                 "type": 6,
@@ -151,7 +151,7 @@
         },
         "bot-block": {
             "description": "Sperrt den User von Commands von FlexBot",
-            "alias": "a<b-b",
+            "alias": "a-b-b",
             "parameters": [{
                 "name": "id",
                 "type": 3.4,
@@ -171,7 +171,7 @@
         },
         "bot-unblock": {
             "description": "Entsperrt den User von Commands von FlexBot",
-            "alias": "a<b-ub",
+            "alias": "a-b-ub",
             "parameters": [{
                 "name": "id",
                 "type": 3.4,
@@ -193,7 +193,7 @@
         },
         "shutdown": {
             "description": "Fährt den Bot herunter",
-            "alias": "a<s",
+            "alias": "a-s",
             "parameters": [],
             "channels": {},
             "forbidden_channels": {},
@@ -201,7 +201,7 @@
         },
         "restart": {
             "description": "Startet den Bot neu; danach instabiler als davor",
-            "alias": "a<rs",
+            "alias": "a-rs",
             "parameters": [{
                 "name": "locked",
                 "type": 5,
