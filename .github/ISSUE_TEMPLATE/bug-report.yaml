@@ -82,20 +82,20 @@ body:
     attributes:
       label: "Sonstiger Client"
   - type: input
-      attributes:
-        label: "Client Version"
-        description: "Bitte die vollständige Version mit Betriebssystem und dessen Version angeben"
-      validations:
-        required: true
+    attributes:
+      label: "Client Version"
+      description: "Bitte die vollständige Version mit Betriebssystem und dessen Version angeben"
+    validations:
+      required: true
   - type: textarea
-      attributes:
-        label: "BetterDiscord Plugins"
-        description: "Bitte hier (falls installiert) alle BD Plugins angeben, die damit zusammenhängen könnten"
-        render: yaml
-        value: |
-          - 
-          - 
-          - 
+    attributes:
+      label: "BetterDiscord Plugins"
+      description: "Bitte hier (falls installiert) alle BD Plugins angeben, die damit zusammenhängen könnten"
+      render: yaml
+      value: |
+        - 
+        - 
+        - 
   - type: markdown
     attributes:
       value: "## ZUSÄTZLICHE INFOS & CHECKOUT"
