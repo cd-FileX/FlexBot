@@ -1,0 +1,111 @@
+name: Bug Report
+description: Melde einen Bug der Website oder des Bots
+title: "[BUG] TITEL"
+labels: ["bug"]
+assignees:
+  - FlexGamesGitHub
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Wichtige Hinweise bevor du einen Bug erstellst:
+          - Bitte nur reporten, sollte der Bug nicht schon reportet sein (siehe [Issues](https://github.com/FlexGamesGitHub/FlexBot/issues))
+          - Bitte auch den Titel bearbeiten
+          - Alles was benötigt ist bitte ausfüllen
+  - type: dropdown
+    attributes: 
+      label: Website oder Bot?
+      options: 
+        - Website
+        - Bot
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Hängt ein Verbesserungsvorschlag damit zusammen?
+      description: Wenn ja bitte angeben
+      placeholder: "#123"
+  - type: markdown
+    attributes:
+      value: "## DER BUG"
+  - type: textarea
+    attributes:
+      label: Bug reproduzieren
+      description: Klare Schritte um den Bug zu reproduzieren
+      render: cfg
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Was passieren sollte und was passiert ist
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: Falls zutreffend und möglich kannst du hier noch Screenshots hinzufügen
+  - type: markdown
+    attributes:
+      value: "## CLIENT & ENDPOINT INFOS"
+  - type: dropdown
+    attributes:
+      label: Bot oder Website Version
+      multiple: true
+      options:
+        - Bot 3.5.3 (Aktuelle)
+        - Bot 3.6 (In-Dev)
+        - Website 1.0.0 (Aktuelle)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Client
+      description: Bitte den benutzten Client angeben
+      options: 
+        - BetterDiscord
+        - Discord
+        - Chrome
+        - Firefox
+        - Opera
+        - Opera GX
+        - Microsoft Edge
+        - Internet Explorer
+        - Ecosia
+        - Sonstiges (Bitte hierunter angeben)
+    validations: 
+      required: true
+  - type: input
+      attributes:
+        label: Sonstiger Client
+  - type: input
+      attributes:
+        label: Client Version
+        description: Bitte die vollständige Version mit Betriebssystem und dessen Version angeben
+      validations:
+        required: true
+  - type: textarea
+      attributes:
+        label: BetterDiscord Plugins
+        description: Bitte hier (falls installiert) alle BD Plugins angeben, die damit zusammenhängen könnten
+        render: yaml
+        value: |
+          - 
+          - 
+          - 
+  - type: markdown
+    attributes:
+      value: "## ZUSÄTZLICHE INFOS & CHECKOUT"
+  - type: textarea
+    attributes: 
+      label: Zusätzlicher Kontext
+      description: Alles was noch nötig sein sollte um den Fehler zu fixen, bitte hier reinschreiben
+  - type: checkboxes
+    attributes: 
+      label: Checkout
+      options:
+        - label: Ich habe den Titel geändert und alles nötige ausgefüllt
+          required: true
