@@ -25,7 +25,7 @@ body:
       label: "Hängt ein Verbesserungsvorschlag damit zusammen?"
       description: "Wenn ja bitte angeben"
       placeholder: "#123"
-      value: "Keins"
+      value: "Nein"
   - type: markdown
     attributes:
       value: "## DER BUG"
