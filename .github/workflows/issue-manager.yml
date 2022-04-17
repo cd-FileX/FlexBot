@@ -26,22 +26,22 @@ jobs:
             {
                 "done": {
                     "delay": 0,
-                    "message": "Danke für den Bug Report/Verbesserungsvorschlag! Das ganze wurde eingebaut/gefixt und der Report/Vorschlag wird jetzt geschlossen"
+                    "message": "Danke für dein Issue! Es wurde eingebaut und der Report wird geschlossen"
                 },
                 "wontdo": {
                     "delay": 0,
-                    "message": "Eingebaut/gefixt wird das zwar nicht aber trotzdem danke. Der Report/Vorschlag wird jetzt geschlossen"
+                    "message": "Dein Issue wird nicht eingebaut und demnach jetzt geschlossen"
                 },
                 "duplicate": {
                     "delay": 0,
-                    "message": "Das wurde schon reportet/vorgeschlagen und wird demnach jetzt geschlossen"
+                    "message": "Das ist ein Duplikat und wird somit jetzt geschlossen"
                 },
                 "invalid": {
                     "delay": 0,
-                    "message": "Die Hinweise wurden nicht eingehalten weswegen der Report/Vorschlag geschlossen wird"
+                    "message": "Du hast die Hinweise nicht beachtet weswegen dein Issue geschlossen wird"
                 },
                 "frage": {
                     "delay": 604800,
-                    "message": "Die Frage wurde nicht beantwortet weswegen jetzt der Report/Vorschlag geschlossen wird"
+                    "message": "Du hast die Rückfrage zu lange nicht beantwortet, weswegen dein Report geschlossen wird"
                 }
             }
