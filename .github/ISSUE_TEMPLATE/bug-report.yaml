@@ -25,6 +25,7 @@ body:
       label: "Hängt ein Verbesserungsvorschlag damit zusammen?"
       description: "Wenn ja bitte angeben"
       placeholder: "#123"
+      value: "Keins"
   - type: markdown
     attributes:
       value: "## DER BUG"
@@ -56,9 +57,9 @@ body:
       label: "Bot oder Website Version"
       multiple: true
       options:
-        - Bot 3.5.3 (Aktuelle)
-        - Bot 3.6 (In-Dev)
+        - Bot 3.6 (Aktuelle)
         - Website 1.0.0 (Aktuelle)
+        - Website 1.0.1 (In-Dev)
     validations:
       required: true
   - type: dropdown
@@ -83,7 +84,7 @@ body:
       label: "Sonstiger Client"
   - type: input
     attributes:
-      label: "Client Version"
+      label: "Client Versionen"
       description: "Bitte die vollständige Version mit Betriebssystem und dessen Version angeben"
     validations:
       required: true
@@ -92,10 +93,7 @@ body:
       label: "BetterDiscord Plugins"
       description: "Bitte hier (falls installiert) alle BD Plugins angeben, die damit zusammenhängen könnten"
       render: yaml
-      value: |
-        - 
-        - 
-        - 
+      value: "Keine"
   - type: markdown
     attributes:
       value: "## ZUSÄTZLICHE INFOS & CHECKOUT"
