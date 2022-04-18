@@ -227,7 +227,7 @@
             "description": "Eine Gruppierung für Unter-Commands (noch nicht eingebaut)",
             "id": 2
         },
-        "String": {
+        "string": {
             "description": "Jegliche Art von Text, somit Übergruppierung von Text, Wörter, Option und ID",
             "id": 3
         },
@@ -244,7 +244,7 @@
             "id": 3.3
         },
         "id": {
-            "description": "Nimmt eine User ID an die zu groß für einen Integer ist",
+            "description": "Nimmt eine (User/Channel/..) ID an die zu groß für einen Integer ist",
             "id": 3.4
         },
         "zahl": {
