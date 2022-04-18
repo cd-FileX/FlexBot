@@ -58,8 +58,7 @@ body:
       multiple: true
       options:
         - Bot 3.6 (Aktuelle)
-        - Website 1.0.0 (Aktuelle)
-        - Website 1.0.1 (In-Dev)
+        - Website 1.0.1 (Aktuelle)
     validations:
       required: true
   - type: dropdown
