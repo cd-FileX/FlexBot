@@ -21,6 +21,7 @@
             <div id="menu-stripe3"></div>
         </button>
         <div id="modals"></div>
+        <div id="curToolTip" style="visibility: hidden; opacity: 0;"></div>
         <div id="content-list" style="transition:color 500ms ease-in-out,background-color 500ms ease-in-out">
             <div id="settings">
                 <a id="bug-report" class="toolTip toolTipBottom" aria-label="Bug Melden" target="_blank" href="https://github.com/FlexGamesGitHub/FlexBot/issues/new/choose" role="button">
@@ -36,34 +37,64 @@
             </div>
             <h2>INHALTS-LISTE</h2>
             <ul id="content-list-list">
+                <div id="c-l-index"></div>
                 <a href="#header-cmd-expl" class="c-l-scnd-header" id="cmd-expl-header">COMMAND ERKLÄRUNG</a>
-                COMMANDS<br/>
-                <ul id="normal-list" class="shown"><a class="c-l-scnd-header c-l-normal-header" href="#header-normal-cmds">NORMAL</a></ul>
-                <ul id="mod-list"><a class="c-l-scnd-header c-l-mod-header" href="#header-mod-cmds">MODERATING</a></ul>
-                <ul id="event-list"><a class="c-l-scnd-header c-l-event-header" href="#header-event-cmds">EVENT</a></ul>
                 <div class="divider"></div>
-                <ul id="type-list"><a class="c-l-scnd-header c-l-type-header" href="#header-param-type">TYPEN</a></ul>
+                COMMANDS<br/>
+                <ul id="normal-list" class="opened">
+                    <a class="c-l-scnd-header c-l-normal-header" href="#header-normal-cmds">NORMAL</a>
+                    <button role="button" id="normal-close-button" class="c-l-close-b">
+                        <svg width="50%" height="50%" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 11A1 1 0 014.5 8L15.5 20 25.5 8A1 1 0 0128.5 11L17.5 24Q15.5 26 13.5 24Z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </ul>
+                <ul id="mod-list" class="closed">
+                    <a class="c-l-scnd-header c-l-mod-header" href="#header-mod-cmds">MODERATING</a>
+                    <button role="button" id="mod-close-button" class="c-l-close-b">
+                        <svg width="50%" height="50%" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                            <path d="M1.5 11A1 1 0 014.5 8L15.5 20 25.5 8A1 1 0 0128.5 11L17.5 24Q15.5 26 13.5 24Z"/>
+                        </svg>
+                    </button>
+                </ul>
+                <ul id="event-list" class="opened">
+                    <a class="c-l-scnd-header c-l-event-header" href="#header-event-cmds">EVENT</a>
+                    <button role="button" id="event-close-button" class="c-l-close-b">
+                        <svg width="50%" height="50%" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                            <path d="M1.5 11A1 1 0 014.5 8L15.5 20 25.5 8A1 1 0 0128.5 11L17.5 24Q15.5 26 13.5 24Z"/>
+                        </svg>
+                    </button>
+                </ul>
+                <div class="divider"></div>
+                <ul id="type-list" class="opened">
+                    <a class="c-l-scnd-header c-l-type-header" href="#header-param-type">TYPEN</a>
+                    <button role="button" id="type-close-button" class="c-l-close-b">
+                        <svg width="50%" height="50%" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                            <path d="M1.5 11A1 1 0 014.5 8L15.5 20 25.5 8A1 1 0 0128.5 11L17.5 24Q15.5 26 13.5 24Z"/>
+                        </svg>
+                    </button>
+                </ul>
             </ul>
         </div>
         <main>
             <h1>COMMANDS VON FLEXBOT</h1>
             <h4 id="header-cmd-expl">COMMAND ERKLÄRUNG</h4>
-            <div class="cmd-expl-item cmd-item" id="cmd-expl">
+            <li class="cmd-expl-item cmd-item" id="cmd-expl">
                 <h6 class="cmd" id="cmd-expl-cmd">
-                    <span id="cmd-expl-prefix" class="toolTip toolTipTop">_</span>
-                    <span id="cmd-expl-name" class="toolTip toolTipTop">test-cmd</span>
-                    <span id="cmd-expl-param1" class="toolTip toolTipTop">.[NAME: <a href="#param-type-wörter">Wörter</a>]</span>
-                    <span id="cmd-expl-param2" class="toolTip toolTipTop">.(TYP: <a href="#param-type-option">Option</a>)</span>
+                    <span id="cmd-expl-prefix" class="toolTip toolTipTop" tabindex=0>_</span>
+                    <span id="cmd-expl-name" class="toolTip toolTipTop" tabindex=0>test-cmd</span>
+                    <span id="cmd-expl-param1" class="toolTip toolTipTop" tabindex=0>.[NAME: <a href="#param-type-wörter">Wörter</a>]</span>
+                    <span id="cmd-expl-param2" class="toolTip toolTipTop" tabindex=0>.(TYP: <a href="#param-type-option">Option</a>)</span>
                 </h6>
                 <span class="cmd-descr" id="cmd-expl-descr">Für eine Zusammenfassung gehe drüber <br/>Für eine Erklärung klicke/tippe drauf</span>
-            </div>
-            <h4 id="header-normal-cmds">NORMALE USER COMMANDS</h4>
+            </li>
+            <h4 id="header-normal-cmds" class="opened" tabindex=0>NORMALE USER COMMANDS</h4>
             <ul id="normal-cmd-list"></ul>
-            <h4 id="header-mod-cmds">MODERATING COMMANDS</h4>
+            <h4 id="header-mod-cmds" class="closed" tabindex=0>MODERATING COMMANDS</h4>
             <ul id="mod-cmd-list"></ul>
-            <h4 id="header-event-cmds">EVENT COMMANDS</h4>
+            <h4 id="header-event-cmds" class="opened" tabindex=0>EVENT COMMANDS</h4>
             <ul id="event-cmd-list"></ul>
-            <h4 id="header-param-type">PARAMETER TYPEN</h4>
+            <h4 id="header-param-type" class="opened" tabindex=0>PARAMETER TYPEN</h4>
             <ul id="param-type-list"></ul>
             <footer id="info-footer">
                 <div>
