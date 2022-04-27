@@ -54,7 +54,7 @@ body:
       value: "## CLIENT & ENDPOINT INFOS"
   - type: dropdown
     attributes:
-      label: "Bot oder Website Version
+      label: "Bot oder Website Version"
       description: "Die Bot Version findest du in [#🔴-flexbot-news](https://discord.com/channels/493472231691780117/930128487623311410), die Website Version ganz unten auf der Website"
       multiple: true
       options:
