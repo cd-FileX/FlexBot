@@ -58,8 +58,8 @@ body:
       description: "Die Bot Version findest du in [#🔴-flexbot-news](https://discord.com/channels/493472231691780117/930128487623311410), die Website Version ganz unten auf der Website"
       multiple: true
       options:
-        - Bot 3.6 (Aktuelle)
-        - Website 1.0.1 (Alte)
+        - Bot 3.6.1 (Aktuelle)
+        - Bot 4.0.0P (In-Dev)
         - Website 1.1.0 (Aktuelle)
     validations:
       required: true
