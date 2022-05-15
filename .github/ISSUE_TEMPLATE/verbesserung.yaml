@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Wichtige Hinweise bevor du einen Bug erstellst:
+        ## Wichtige Hinweise bevor du eine Verbesserung erstellst:
           - Bitte nur erstellen, sollte die Verbesserung noch in keiner Form so erstellt worden sein (siehe [Issues](https://github.com/FlexGamesGitHub/FlexBot/issues))
             - Sollte eine auch nur ähnlich sein, bitte schreibe einen Kommentar darunter statt eine neue zu erstellen
           - Bitte auch den Titel bearbeiten
