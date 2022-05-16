@@ -236,7 +236,7 @@
             "id": 3.1
         },
         "wörter": {
-            "description": "Es dürfen mehrere Wörter angegeben werden jedoch ohne Zeichen dazwischen, Länge evtl. begrenzt je nach Command",
+            "description": "Es dürfen mehrere Wörter (und Zahlen) angegeben werden jedoch ohne Zeichen dazwischen, Länge evtl. begrenzt je nach Command",
             "id": 3.2
         },
         "option": {
